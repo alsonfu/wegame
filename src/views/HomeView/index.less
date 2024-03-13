@@ -1,0 +1,119 @@
+.ListBlock_title {
+  align-items: center;
+  color: #93acd3;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 16px;
+  min-height: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color 0.1s ease-in-out;
+  white-space: nowrap;
+}
+.ListBlock_list {
+  grid-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+@media screen and (max-width: 756px) {
+  .ListBlock_list {
+    grid-gap: 18px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .ListBlock_list {
+    grid-gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/** list */
+.ListBlock_list .ListBlock_item {
+  align-items: center;
+  background-color: #1b2233cc;
+  border-radius: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150px;
+  overflow: hidden;
+  position: relative;
+  transform: translateZ(1px);
+  transition: opacity 0.1s ease-in-out;
+  z-index: 1;
+
+  .ListBlock_bg {
+    height: 100%;
+    object-fit: fill;
+    transition: all 0.2s;
+    width: 100%;
+  }
+
+  .ListBlock_home_self {
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    top: 5px;
+  }
+
+  .ListBlock_home_text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &:hover .ListBlock_gamePreviewHover {
+    opacity: 1;
+  }
+}
+
+.ListBlock_gamePreviewHover {
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background-color: #1b2233cc;
+  background-color: #00000073;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  inset: 0;
+  opacity: 0;
+  padding: 19px 10px 13px;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(1px);
+  transition: opacity 0.1s ease-in-out;
+  z-index: 10;
+
+  & .ListBlock_gameTitle {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  & .ListBlock_gamePreviewBtnPlay {
+    align-items: center;
+    background-color: #ed1d49;
+    border-radius: 50%;
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    min-width: 42px;
+    width: 65px;
+
+    & .ListBlock_trangle {
+      border: 8px solid transparent;
+      border-left-color: #fff;
+      height: 0;
+      margin-left: 10px;
+      width: 0;
+    }
+  }
+}

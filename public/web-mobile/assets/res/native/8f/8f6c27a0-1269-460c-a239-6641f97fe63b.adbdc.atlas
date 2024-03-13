@@ -1,0 +1,104 @@
+
+fly_bird.png
+size: 474,1962
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 258, 2
+  size: 207, 203
+  orig: 209, 205
+  offset: 1, 1
+  index: -1
+02
+  rotate: true
+  xy: 2, 239
+  size: 235, 253
+  orig: 237, 255
+  offset: 1, 1
+  index: -1
+03
+  rotate: false
+  xy: 2, 757
+  size: 298, 287
+  orig: 300, 289
+  offset: 1, 1
+  index: -1
+04
+  rotate: false
+  xy: 2, 1332
+  size: 310, 287
+  orig: 312, 289
+  offset: 1, 1
+  index: -1
+05
+  rotate: false
+  xy: 2, 1621
+  size: 328, 339
+  orig: 330, 341
+  offset: 1, 1
+  index: -1
+06
+  rotate: false
+  xy: 2, 1046
+  size: 308, 284
+  orig: 310, 286
+  offset: 1, 1
+  index: -1
+07
+  rotate: true
+  xy: 2, 476
+  size: 279, 280
+  orig: 281, 282
+  offset: 1, 1
+  index: -1
+08
+  rotate: true
+  xy: 2, 12
+  size: 225, 254
+  orig: 227, 256
+  offset: 1, 1
+  index: -1
+dl
+  rotate: false
+  xy: 284, 476
+  size: 178, 243
+  orig: 212, 359
+  offset: 21, 0
+  index: -1
+guang
+  rotate: false
+  xy: 302, 721
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+hj
+  rotate: true
+  xy: 258, 207
+  size: 267, 213
+  orig: 426, 438
+  offset: 156, 160
+  index: -1
+recycle_bg7tail
+  rotate: false
+  xy: 395, 740
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+tw_00
+  rotate: false
+  xy: 354, 740
+  size: 39, 39
+  orig: 50, 50
+  offset: 6, 4
+  index: -1
+xian_00
+  rotate: false
+  xy: 354, 721
+  size: 100, 17
+  orig: 100, 17
+  offset: 0, 0
+  index: -1

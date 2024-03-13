@@ -1,5 +1,6 @@
 import type { UserConfig, ConfigEnv } from "vite";
 import { loadEnv } from "vite";
+import { createProxy } from './build/vite/proxy';
 import { createVitePlugins } from "./build/vite/plugin";
 import { wrapperEnv } from "./build/utils";
 import { resolve } from "path";
@@ -13,6 +14,13 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
   const env = loadEnv(mode, root);
   const viteEnv = wrapperEnv(env);
   return {
+    server: {
+      // Listening on all local IPs
+      host: true,
+      port: viteEnv.VITE_PORT,
+      // Load proxy configuration from .env
+      proxy: createProxy([["/basic-api","http://192.168.31.64:8080"]]),
+    },
     resolve: {
       alias: [
         {

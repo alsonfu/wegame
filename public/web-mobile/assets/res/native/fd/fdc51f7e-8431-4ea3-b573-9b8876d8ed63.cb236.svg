@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_9690" data-name="9690" width="24" height="24" transform="translate(1731 507)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="_4292" data-name="4292" width="19.958" height="21.07" fill="#93acd3"/>
+    </clipPath>
+  </defs>
+  <g id="Limbo" transform="translate(-1731 -507)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="_20921" data-name="20921" transform="translate(1732.92 508.44)">
+      <g id="_8768" data-name="8768" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <path id="_18962" data-name=" 18962" d="M19.861,9.67,18.1,8.126l.116-2.535a6.283,6.283,0,0,0-1.319-4.121L15.986.212a.509.509,0,0,0-.825,0l-.908,1.259a6.28,6.28,0,0,0-1.319,4.121l.116,2.545L11.3,9.695a.354.354,0,0,0-.112.333L11.6,12.1a.354.354,0,0,0,.471.263l1.708-.64H17.37l1.71.641a.354.354,0,0,0,.471-.262l.424-2.1a.353.353,0,0,0-.114-.336M15.573,6.741a1.062,1.062,0,1,1,1.062-1.062,1.062,1.062,0,0,1-1.062,1.062" transform="translate(-5.525 0)" fill="#93acd3"/>
+        <path id="_18963" data-name="18963" d="M16.934,30.714a3.02,3.02,0,0,0-1.087.2,2.272,2.272,0,0,0-2.2-1.722,2.234,2.234,0,0,0-.254.026c0-.009,0-.017,0-.026a3.541,3.541,0,0,0-7.081,0c0,.009,0,.017,0,.026a2.234,2.234,0,0,0-.254-.026,2.268,2.268,0,0,0-2.175,1.643A3.031,3.031,0,0,0,0,33.483a.252.252,0,0,0,.254.266H19.7a.252.252,0,0,0,.254-.266,3.035,3.035,0,0,0-3.023-2.769" transform="translate(0 -12.679)" fill="#93acd3"/>
+      </g>
+    </g>
+  </g>
+</svg>
